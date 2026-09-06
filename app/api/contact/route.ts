@@ -23,10 +23,10 @@ export async function POST(request: Request) {
     });
 
     await transporter.sendMail({
-      from: `ミラウェブ <${process.env.SMTP_USER}>`,
+      from: `MiraWeb <${process.env.SMTP_USER}>`,
       to: process.env.CONTACT_TO || "contact@miraweb.jp",
       replyTo: email,
-      subject: `【ミラウェブ】お問い合わせ：${name}様`,
+      subject: `【MiraWeb】お問い合わせ：${name}様`,
       text: [
         `お名前: ${name}`,
         `会社名: ${company || "未入力"}`,
