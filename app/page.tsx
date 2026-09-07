@@ -127,9 +127,9 @@ export default function HomePage() {
           <a href="#works">制作実績</a>
           <a href="#reason">選ばれる理由</a>
           <a href="#faq">よくあるご質問</a>
-          <a href="#contact">お問い合わせ</a>
+          {/* <a href="#contact">お問い合わせ</a> */}
         </nav>
-        {/* <a className="contact-btn" href="#contact">お問い合わせ</a> */}
+        <a className="contact-btn" href="#contact">お問い合わせ</a>
       </header>
 
       <section className="hero" id="top">
