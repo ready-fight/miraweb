@@ -127,7 +127,7 @@ export default function HomePage() {
           <a href="#works">制作実績</a>
           <a href="#reason">選ばれる理由</a>
           <a href="#faq">よくあるご質問</a>
-          {/* <a href="#contact">お問い合わせ</a> */}
+          <a href="#contact">お問い合わせ</a>
         </nav>
         {/* <a className="contact-btn" href="#contact">お問い合わせ</a> */}
       </header>
@@ -229,7 +229,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* <div className="contact" id="contact">
+        <div className="contact" id="contact">
           <h2>お問い合わせ</h2>
           <p className="small">システムに関するご相談・お見積りなど、お気軽にお問い合わせください。</p>
           <form onSubmit={handleSubmit}>
@@ -242,7 +242,7 @@ export default function HomePage() {
             <button type="submit" disabled={sending}>{sending ? "送信中…" : "送信する　→"}</button>
             {message && <p className="form-message" role="status">{message}</p>}
           </form>
-        </div> */}
+        </div>
       </section>
 
       <footer>
